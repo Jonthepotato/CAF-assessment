@@ -1,0 +1,6 @@
+<h1>recipe-list works!</h1>
+<div *ngFor ="let recipe of recipes; let i = index" class="recipes-style" (click)="chooseRecipe(i)">
+  {{recipe.title}}
+</div>
+
+<button type="button" (click)="addRecipe()">Add</button>

@@ -1,0 +1,20 @@
+<p>recipe-detail works!</p>
+<table>
+  <tr>
+    <td>{{recipeDetails.title}}</td>
+  </tr>
+  <tr>
+    <img src="{{recipeDetails.image}}" alt ="">
+  </tr>
+  <tr>
+    <td>Ingredients: {{recipeDetails.ingredients}}</td>
+  </tr>
+  <tr>
+    <td>Instructions: {{recipeDetails.instructions}}</td>
+  </tr>
+  <tr>
+    <td>
+      <button type="button" [routerLink]="['/']">Back</button>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,17 @@
+.recipes-style{
+  border:lightgrey1px solid;
+  margin: 5px;
+  padding:5px;
+  font-size:2em;
+  transition-duration:300ms;
+  transition-property:background-color, border;
+  /* transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1) */
+  transition-timing-function:linear;
+}
+
+.recipes-style:hover{
+  background-color: lightgray;
+  border:grey 1px solid;
+  border-radius: 8px;
+  /* text-shadow: 5px 5px 10px lightblue; */
+}
